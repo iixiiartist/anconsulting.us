@@ -5,9 +5,11 @@
 - Company Name: anconsulting.us
 - Primary Service: Source-Grounded AI Workflows
 - Industry Focus: Professional AI Implementation for Sales Teams
-- Website: <https://anconsulting.us>
+- Website: <https://anconsulting.us> (Live Production Site - September 2025)
 - Current Use Case Library: Sample of 10 verified, sales-aligned implementations
-- Implementation Guides: One comprehensive sales-focused guide
+- Implementation Guides: Three comprehensive industry guides (Insurance, Legal, Sales)
+- Technical Platform: Netlify + Supabase + GitHub continuous deployment
+- AI Integration: Gemini-powered chatbot with persistent memory
 
 ---
 
@@ -444,15 +446,47 @@ This comprehensive style guide ensures consistent brand application across all m
 
 ---
 
-## 12. CURRENT WEBSITE ARCHITECTURE
+## 12. TECHNICAL INFRASTRUCTURE (September 2025)
+
+### Platform Architecture
+
+- **Hosting:** Netlify static site with serverless functions
+- **Repository:** GitHub (iixiiartist/anconsulting.us) with continuous deployment
+- **Database:** Supabase for visitor profiles, chat history, and analytics
+- **AI Service:** Google Gemini API integration for chatbot functionality
+- **Deployment:** Automated Git-based deployment from `main` branch
+- **Domain:** <https://anconsulting.us> (live production environment)
+
+### Development Workflow
+
+- **Version Control:** Git with main branch deployment strategy
+- **Local Development:** Netlify CLI for local testing and function development
+- **Environment Management:** Separate development/production configurations
+- **Database Management:** Supabase migration system for schema updates
+- **Function Deployment:** Automatic serverless function deployment with site updates
+
+### Interactive Features
+
+- **AI Chatbot:** Gemini-powered assistant with context awareness and memory persistence
+- **Visitor Analytics:** Real-time visitor behavior tracking and engagement metrics
+- **Memory System:** Supabase-backed chat history and visitor preferences
+- **Responsive Design:** Mobile-optimized interface across all device types
+- **SEO Optimization:** Structured data and comprehensive meta optimization
+
+---
+
+## 13. CURRENT WEBSITE ARCHITECTURE
 
 ### Page Structure
 
-- **Homepage (index.html):** Main landing with industry cards, simplified pricing
+- **Homepage (index.html):** Main landing with industry cards, AI chatbot integration
 - **Use Case Library (/use-cases/):** Sample library of 10 Professional Sales use cases
-- **Implementation Guides (/implementation-guides/):** One sales-focused blueprint
+- **Implementation Guides (/implementation-guides/):** Three comprehensive industry guides
   - Professional Sales Teams: Verifiable AI sales engine guide
-- **Secondary Pages:** NotebookLM Alternative (Gem Membership hidden; Prompt Shop removed)
+  - Insurance Agencies: Risk assessment and compliance workflows
+  - Legal Professionals: Document analysis and research automation
+- **Secondary Pages:** NotebookLM Alternative, Health Check, Analytics Dashboard
+- **Interactive Elements:** AI chatbot with Supabase memory integration
 
 ### Industry Distribution
 
@@ -475,11 +509,13 @@ This comprehensive style guide ensures consistent brand application across all m
 
 ---
 
-## 13. IMPLEMENTATION GUIDE BRANDING
+## 14. IMPLEMENTATION GUIDE BRANDING
 
 ### Visual Identity for Guides
 
 - **Professional Sales Teams:** 🎯 Revenue emphasis, sales performance focus
+- **Insurance Agencies:** 🛡️ Risk management and compliance focus
+- **Legal Professionals:** ⚖️ Document analysis and research precision focus
 
 ### Guide Styling Standards
 
@@ -495,9 +531,18 @@ This comprehensive style guide ensures consistent brand application across all m
 - **Quality Control:** Human-in-the-loop verification protocols
 - **Professional Standards:** Industry-specific compliance requirements
 
+### AI Chatbot Design Standards
+
+- **Integration:** Fixed position chat widget with glass morphism styling
+- **Branding:** Consistent with site color palette and typography
+- **Memory Persistence:** Supabase integration for conversation continuity
+- **Response Styling:** Formatted responses with proper source attribution
+- **Mobile Optimization:** Touch-friendly interface with proper spacing
+- **Loading States:** Typing indicators and response loading animations
+
 ---
 
-## 14. MOBILE OPTIMIZATION STANDARDS
+## 15. MOBILE OPTIMIZATION STANDARDS
 
 ### Touch Interface Requirements
 
@@ -521,17 +566,20 @@ This comprehensive style guide ensures consistent brand application across all m
 
 ---
 
-## 15. BRAND COMPLIANCE UPDATES
+## 16. BRAND COMPLIANCE UPDATES (September 2025)
 
 ### Current Implementation Status
 
-- [x] 10 sample use cases live
-- [x] One comprehensive implementation guide
+- [x] 10 sample use cases live and operational
+- [x] Three comprehensive implementation guides (Insurance, Legal, Sales)
+- [x] Gemini AI chatbot with Supabase memory integration
+- [x] GitHub continuous deployment workflow established
 - [x] Enhanced mobile navigation with proper touch handling
 - [x] Complete SEO optimization with accurate counts
 - [x] Ethical compliance alignment for all content
 - [x] Professional emoji icons for industry identification
-- [x] Simplified pricing structure (removed subscription complexity)
+- [x] Visitor analytics and engagement tracking system
+- [x] Production deployment at <https://anconsulting.us>
 
 ### Quality Assurance Checklist
 
