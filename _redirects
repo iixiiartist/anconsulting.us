@@ -1,0 +1,13 @@
+# Redirect removed implementation guides to professional sales teams page
+
+/implementation-guides/insurance-agencies.html /implementation-guides/professional-sales-teams.html 301
+/implementation-guides/insurance-agencies /implementation-guides/professional-sales-teams.html 301
+/implementation-guides/legal-professionals.html /implementation-guides/professional-sales-teams.html 301
+/implementation-guides/legal-professionals /implementation-guides/professional-sales-teams.html 301
+
+# Legacy use case redirects - redirect to main use cases page
+
+/use-cases/e-discovery-and-document-review.html /use-cases/ 301
+/use-cases/e-discovery-and-document-review /use-cases/ 301
+/use-cases/electronic-discovery-and-document-review.html /use-cases/ 301
+/use-cases/electronic-discovery-and-document-review /use-cases/ 301

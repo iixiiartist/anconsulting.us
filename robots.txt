@@ -1,0 +1,12 @@
+﻿User-agent: *
+# Block private or non-public endpoints
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_redirects
+Disallow: /gem-membership.html
+
+# Optional: small crawl delay for non-Google crawlers
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://anconsulting.us/sitemap.xml
