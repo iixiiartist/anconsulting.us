@@ -40,10 +40,20 @@ This guide provides comprehensive implementation instructions, required material
 
 ## TECHNICAL IMPLEMENTATION
 
+### Current Site Infrastructure (September 2025)
+
+- **Platform:** Netlify static site hosting with serverless functions
+- **Repository:** GitHub (iixiiartist/anconsulting.us) with continuous deployment
+- **Database:** Supabase integration for visitor profiles and chat memory
+- **AI Integration:** Google Gemini API for chatbot functionality
+- **Deployment:** Automated Git-based deployment from `main` branch
+- **Functions:** Netlify serverless functions for AI chat, analytics, and Supabase operations
+- **Domain:** <https://anconsulting.us> (live production site)
+
 ### AI Platforms Used
 
 - **NotebookLM:** Primary platform for document intelligence and source-grounded responses
-- **Gemini:** Custom agent development and advanced AI workflows
+- **Gemini:** Custom agent development, advanced AI workflows, and integrated chatbot
 - **AgentSpace:** Multi-agent system implementations and workflow automation
 
 ### Implementation Process
@@ -218,12 +228,32 @@ This comprehensive quality framework ensures all anconsulting.us implementations
 - Secure document handling and data protection
 - User access controls and permission management
 
+### Website Features & Capabilities
+
+- **Interactive AI Chatbot:** Gemini-powered assistant with context awareness
+- **Visitor Memory System:** Supabase-backed chat history and preferences
+- **Use Case Library:** Comprehensive searchable database of verified implementations
+- **Implementation Guides:** Detailed step-by-step guides for three industries
+- **Analytics Integration:** Visitor behavior tracking and engagement metrics
+- **Responsive Design:** Mobile-optimized interface across all devices
+- **SEO Optimization:** Structured data and meta optimization for search visibility
+
 ### Data Handling
 
 - Source document ingestion and organization
 - Proprietary data security and compliance
 - Version control and document management
 - Audit trail and provenance tracking
+- Supabase database for visitor profiles and chat sessions
+
+### Development & Deployment Workflow
+
+- **Version Control:** Git repository with main branch deployment
+- **Continuous Integration:** Automated deployment on push to GitHub
+- **Local Development:** Netlify CLI for local testing and development
+- **Environment Management:** Separate development and production environments
+- **Database Migrations:** Supabase migration system for schema updates
+- **Function Deployment:** Serverless functions automatically deployed with site updates
 
 ### Output Formats
 
@@ -231,6 +261,8 @@ This comprehensive quality framework ensures all anconsulting.us implementations
 - Searchable databases and knowledge bases
 - Interactive dashboards and analytics
 - Automated workflow triggers and alerts
+- Real-time chat responses with source attribution
+- Visitor profile data and analytics reports
 
 ---
 
@@ -323,12 +355,16 @@ This comprehensive quality framework ensures all anconsulting.us implementations
 
 This comprehensive context guide provides LLMs with all necessary information to create accurate, on-brand content for anconsulting.us that properly represents our Source-Grounded AI Workflow methodology, quality-assured service offerings, and professional compliance standards.
 
-**Current Service Status:**
+**Current Service Status (September 2025):**
 
+- **Live Website:** <https://anconsulting.us> (fully deployed and operational)
+- **AI Chatbot:** Integrated Gemini-powered chatbot with Supabase memory persistence
 - **Sample of 10 Verified Use Cases:** Sales-certified and professionally reviewed
-- **1 Implementation Guide:** Professional Sales Teams
+- **3 Implementation Guides:** Insurance Agencies, Legal Professionals, Professional Sales Teams
 - **Quality Assurance Framework:** Rigorous ethical and professional standards
 - **Simplified Service Model:** Expert consulting focused on proven, compliant implementations
 - **Professional Focus:** High-stakes environments requiring verifiable, auditable AI solutions
+- **Development Environment:** Git-based workflow with continuous deployment
+- **Visitor Analytics:** Integrated analytics and visitor profiling system
 
 All content created using this guide should emphasize our commitment to professional standards, ethical compliance, and quality-assured implementations that eliminate AI hallucinations through rigorous source verification protocols.
