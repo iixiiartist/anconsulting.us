@@ -285,53 +285,6 @@ body {
 </div>
 </div>
 </header>
-
-<!-- Enhanced Mobile Menu Script with Touch Support -->
-<script>
-function toggleMobileMenu() {
-    console.log('Mobile menu toggle called');
-    const menu = document.getElementById('mobile-menu');
-    const button = document.getElementById('mobile-menu-button');
-    const icon = button.querySelector('[data-lucide]');
-    
-    if (menu.classList.contains('hidden')) {
-        menu.classList.remove('hidden');
-        if (icon) {
-            icon.setAttribute('data-lucide', 'x');
-            if (typeof lucide !== 'undefined') lucide.createIcons();
-        }
-        console.log('Menu opened');
-    } else {
-        menu.classList.add('hidden');
-        if (icon) {
-            icon.setAttribute('data-lucide', 'menu');
-            if (typeof lucide !== 'undefined') lucide.createIcons();
-        }
-        console.log('Menu closed');
-    }
-}
-
-// Enhanced touch and click handling for mobile
-document.addEventListener('DOMContentLoaded', function() {
-    const button = document.getElementById('mobile-menu-button');
-    if (button) {
-        // Add touch event listeners for better mobile responsiveness
-        button.addEventListener('touchstart', function(e) {
-            e.preventDefault();
-            toggleMobileMenu();
-        }, { passive: false });
-        
-        // Fallback click handler
-        button.addEventListener('click', function(e) {
-            e.preventDefault();
-            toggleMobileMenu();
-        });
-        
-        // Remove the onclick attribute to avoid double firing
-        button.removeAttribute('onclick');
-    }
-});
-</script>
 <main class="relative z-10">
 <section class="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
 <div class="container mx-auto px-6 text-center relative z-10">
